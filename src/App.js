@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Product from './components/Product'
-import jsonProducts from './products.json'
+import Nav from './components/Nav';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import Product from './components/Product';
+import Footer from '/components/Footer'
+import jsonProducts from '/products.json'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
 
