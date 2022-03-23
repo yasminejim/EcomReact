@@ -1,27 +1,29 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
-import Product from './Product';
+import React from 'react';
 
 
-export class Nav extends Component {
 
-    render(){
-        return(
+
+
+    const Navbar = () =>{
+        return (
             <>
-                  <header className="NavHeader">
-         <a className="Logo" href="Homepage.html"><img src="images/NailsByYaz.png" alt="Nail nail logo"></img></a>
+         <header className="NavHeader">
+         <a className="Logo" href="Homepage.html"><img src = "images/NailsByYaz.png" alt="Nail nail logo"></img></a>
          <nav>
-         <ul>
-                    <Link to="/homepage"> <li><a href="Home">Home</a></li></Link>
-                    <Link to="/products"> <li><a href="Products">Products</a></li></Link>
-                    <Link to="/contact"><li><a href="Contact">Contact</a></li></Link>
-                </ul>
+            <a className="navLink" href="Homepage.html">Home</a>
+            <a className="navLink" href="Products.html">Products</a>
+            <a class="navLink" href="Contact.html">Contact</a>
+        
+            <a className="mobile" href="Homepage.html">Home</a>
+            <a className="mobile" href="Products.html">Products</a>
+            <a className="mobile" href="Contact.html">Contact</a>
+        
         </nav>
-        </header>
+      </header>
             </>
         )
     }
-}
+
 
 
 
