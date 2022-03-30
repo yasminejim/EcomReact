@@ -1,0 +1,207 @@
+/* Product Cards*/
+
+.container { 
+    margin:30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding-bottom:80px;
+
+    }
+    
+    .card {
+    background:rgb(108, 74, 74);
+    width:300px;
+    height:560px;
+    margin:30px;
+    border-radius:15px ;
+    }
+    
+    .card-image {
+    height:395px;
+    margin-bottom:15px;
+    background-size:cover;
+    border-radius: 10px 10px 0 0;
+    background-position: center;
+    }
+    /* Card images*/
+    .nail-0{
+    background-image: url('product.img/AllNatural.jpeg');
+    }
+    .nail-1{
+    background-image: url('product.img/Baecation.jpeg');
+    }
+    .nail-2{
+      background-image: url('product.img/Barbie.jpeg');
+    }
+    .nail-3{
+      background-image: url('product.img/Chanel.jpeg');
+    }
+    .nail-4{
+      background-image: url('product.img/Deja-vu.jpeg');
+    }
+    .nail-5{
+      background-image: url('product.img/Espresso.jpeg');
+    }
+    .nail-6{
+      background-image: url('product.img/Extravagant.jpeg');
+    }
+    .nail-7{
+      background-image: url('product.img/Miami.jpeg');
+    }
+    .nail-8{
+      background-image: url('product.img/November.jpeg');
+    } 
+     .nail-9{
+      background-image: url('product.img/PinkMoscato.jpeg');
+    }
+    .nail-10{
+      background-image: url('product.img/ShadesOfNude.jpeg');
+    }
+    .nail-11{
+      background-image: url('product.img/WildLime.jpeg');
+    }
+    
+    .card h2 {
+    margin-top: -5px;
+     margin-bottom: -15px;
+      padding:1px;
+      text-align: center;
+      color:white;
+    }
+    
+    .card h3 {
+      font-size: 15px;
+      margin-bottom:-15px;
+      padding:5px;
+      text-align: center;
+      color:white;
+    }
+    
+    .card p {
+      margin-bottom: -15px;
+      padding:10px;
+      text-align: center;
+      color:white;
+      font-size: 12px;
+      text-shadow: 2px 2px black;
+    }
+    
+    .card:hover {
+      transform: scale(1.03);
+      transition: all 1s ease;
+    }
+    
+    .cartbuttonForm {
+      padding:20px 95px;
+    }
+    
+    .inputBox1 input[type="submit"]
+    {
+      width: 100px;
+      background-color:rgb(237, 237, 237);
+      color:black;
+      border: none;
+      cursor: pointer;
+      padding: 3px;
+      font-size: 12px;
+      border-radius: 12px 12px;
+    }
+    
+    .inputBox1:hover {
+      color:black;
+      transform:scale(1.03);
+    }
+      
+      
+    /*Responsive Product Cards*/
+      @media screen and (max-width:768px){
+        
+        .container {
+          padding:70px;
+          margin:15px;
+          display: flex;
+          justify-content: center;
+          flex-wrap:wrap;
+          gap:15px;
+        }
+        
+        .card {
+          width:260px;
+          height:380px;
+          background:rgb(108, 74, 74);
+          margin:15px;
+         border-radius:10px;
+        }
+        
+        .card-image {
+          height:200px;
+          margin-bottom:1px;
+          background-size:cover;
+          border-radius: 10px 10px 0 0;
+          background-position: center;
+        }
+        
+        .cartbuttonForm {
+          padding:20px 75px;
+          margin-top: 30px;
+        }
+        }
+
+        @media only screen and (max-width: 375px) {
+        
+               .container {
+                 padding: 70px;
+                 margin: 15px;
+                 display: flex;
+                 justify-content: center;
+                 flex-wrap: wrap;
+                 gap: 15px;
+               }
+
+               .card {
+                 width: 260px;
+                 height: 380px;
+                 background: rgb(108, 74, 74);
+                 margin: 15px;
+                 border-radius: 10px;
+               }
+
+               .card-image {
+                 height: 200px;
+                 margin-bottom: 1px;
+                 background-size: cover;
+                 border-radius: 10px 10px 0 0;
+                 background-position: center;
+               }
+
+               .cartbuttonForm {
+                 padding: 20px 75px;
+                 margin-top: 3px;
+               }
+
+                   .card h2 {
+                     margin-top: -5px;
+                     margin-bottom: -1px;
+                     padding: 1px;
+                     text-align: center;
+                     color: white;
+                   }
+
+                   .card h3 {
+                     font-size: 12px;
+                     margin-bottom: -15px;
+                     padding: 5px;
+                     text-align: center;
+                     color: white;
+                   }
+
+                   .card p {
+                     margin-bottom: -15px;
+                     padding: 10px;
+                     text-align: center;
+                     color: white;
+                     font-size: 12px;
+                     text-shadow: 2px 2px black;
+                   }
+        }

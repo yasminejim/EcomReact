@@ -1,26 +1,33 @@
 import React from 'react';
+import "./Home.css";
+import HomeSlider from "./HomeSlider";
+import Footer from "../Footer/Footer";
 
 
-   const Homepage = () =>{
+   const Home = () =>{
       return(
             <>
                   <div>
          <div className="hero-container">
-            <div className="hero-image">
+           
+             <HomeSlider/>
                <section className="hero-text">
-                  <h2>Use Promo Code "HAPPYHOLLY" To Get 15% Off Your Order</h2>
+                  <h2>Use Promo Code "SUMMER22" To Get 15% Off Your Order</h2>
                   <h3>For the lastest trends in nails.</h3>
                   <aside className="inputBox2">
-                     <form action="Products.html">
+                     <form action="/Product">
                         <input type="submit" value="Shop Now" />
                      </form>
                   </aside>
+               
             </section>
             </div>
         </div>
-         </div>
-      
+         
+        
+      <Footer />
             </>
+            
         )
     }
 

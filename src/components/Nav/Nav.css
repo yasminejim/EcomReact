@@ -1,0 +1,108 @@
+/*Nav bar*/
+
+.NavHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    background-color: rgb(200, 149, 149);
+    height: 70px;
+    top:0;
+  }
+  
+  .NavHeader img{
+    max-width: 320px;
+    margin:2px;
+  }
+  
+  
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    margin-right: 2em;
+    font-size: 1.5em;
+  }
+  
+  nav a:hover {
+    color:rgb(237, 237, 237);
+  }
+  
+  header .mobile {
+  display:none;
+  }
+  
+  /*Mobile menu top of page*/
+/* .main-mobile-menu {
+  padding: 2rem 0rem;
+}
+.mobile-menu a{
+  text-decoration:none ;
+}
+.mobile-menu {
+  position:fixed;
+   margin-top:0%; 
+  left: 0;
+  width: 100%;
+  background: rgb(200, 149, 149);
+  display: grid;
+   grid-template-columns: repeat(4, 1fr); 
+  padding: 0.7rem 0rem;
+  box-shadow: 1px 1px 1px rgba(62, 98, 100, 0.226);
+}
+.menu-item {
+  text-align: center;
+  color:white;
+  font-size:1.5rem ;
+}
+.menu-item p {
+  color:white;
+  font-size: 10px;
+  margin-top: 0.2rem;
+  font-weight:bolder;
+} */
+
+
+/*Tablet*/
+/* @media only screen and (max-width: 1024px) {
+ .main-mobile-menu{
+   display:none;
+ }
+ .mobile-menu{
+   display:none;
+ }
+} */
+/* Mobile*/
+@media only screen and (max-width: 475px) {
+  .NavHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-items:center;
+    align-content:center;
+    background-color: rgb(200, 149, 149);
+    height: 40px;
+    top: 0;
+  }
+  .NavHeader img{
+    max-width:130px;
+    margin:-px;
+
+  }
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-right: .2em;
+    font-size: 20px;
+  }
+
+  nav a:hover {
+    color: rgb(237, 237, 237);
+  }
+
+  }
+  /*End of Nav bar*/

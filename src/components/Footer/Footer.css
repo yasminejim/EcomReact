@@ -1,0 +1,60 @@
+    /*Footer Section Flexbox*/
+    footer {
+        background-color:white;
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: flex-start;
+        color:rgb(108, 74, 74);
+        width: 100%;
+        position:fixed;
+        bottom:0;
+      }
+      footer p{
+        font-size: 10px;
+      }
+      footer img {
+        max-width: 100px;
+      }
+    
+     footer .logo:last-child {
+         margin-right:20px;
+        }
+      
+      footer .logo img{
+       width:30px;
+     }
+  @media only screen and (max-width: 375px) {
+
+        footer {
+          background-color: white;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          align-content: flex-start;
+          color: rgb(108, 74, 74);
+          width: 100%;
+          position: fixed;
+          bottom: px;
+        }
+
+        footer p {
+          font-size: 10px;
+        }
+
+        footer img {
+          max-width: 70px;
+        }
+
+        footer .logo:last-child {
+          margin-right: 10px;
+        }
+
+        footer .logo img {
+          width: 30px;
+        }
+  }

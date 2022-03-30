@@ -1,0 +1,77 @@
+{
+    "Products" : [
+    {
+        "image":"./../public/images/AllNatural.jpeg",
+        "title": "All Natural",
+        "price": "$15.00",
+        "description": "This set offers a cozy nude color perfect for all year round! These Nude press-on nails are great for making your hands look gorgeous."
+
+    },
+    {
+        "image": "./../public/images/Baecation.jpeg",
+        "title": "Baecation",
+        "price": "$24.99",
+        "description": "This set is so beautiful and versatile. Perfect for dates, work, weekend trips, & guaranteed to make a fashion statement."
+    },
+    {
+        "image": "./../public/images/Barbie.jpeg",
+        "title": "Barbie",
+        "price": "$24.99",
+        "description": "The pink and matte finish looks just like a real manicure. With this full set, you'll have a unique style that's just you!"
+    },
+    {
+        "image": "./../public/images/Chanel.jpeg",
+        "title": "Chanel",
+        "price": "$24.99",
+        "description": "This set is 100% hand-painted and made to order. Feel a little rich with our new Chanel nails. These nails are simple yet chic!" 
+    },
+    {
+        "image": "./../public/images/Deja-vu.jpeg",
+        "title": "Deja-vu",
+        "price": "$15.00",
+        "description": "These press-on nails add instant length and style, with a white abstract design and glossy finish, a show-stopper."
+    },
+    {
+        "image": "./../public/images/Espresso.jpeg",
+        "title": "Espresso",
+        "price": "$24.99",
+        "description": "This set offers a cozy dark brown color perfect for all year round! These nails are great for making your hands look gorgeous."
+    },
+    {
+        "image": "./../public/images/Extavagant.jpeg",
+        "title": "Extravegant",
+        "price": "$15.00",
+        "description": "These stunning press on nails are for those that love to express their personality with nail design and color. "
+    },
+    {
+        "image": "./../public/images/Miami.jpeg",
+        "title": "Miami",
+        "price": "$15.00",
+        "description": "This set gives serious Miami vibes, this is a must-have set this season featuring everything from bling to marble!"
+    },
+    {
+        "image": "./../public/images/November.jpeg",
+        "title": "November",
+        "price": "$24.99",
+        "description": "Bold and Conservative all at one time. The quality of these nails is top-notch! Try these out, you won't be disappointed."
+    },
+    {
+        "image": "./../public/images/Cliche.jpeg",
+        "title": "Cliche",
+        "price": "$24.99",
+        "description": "If you define yourself as a Bling Queen, you just found your new favorite set! Perfect for any outfit or occasion."
+    },
+    {
+        "image": "./../public/images/ShadesOfNude.jpeg",
+        "title": "The Nudes",
+        "price": "$24.99",
+        "description": "If you're a Nude lover this set is the perfect set for you! Enjoy shades of nudes to match any outfit or special occasion."
+    },
+    {
+        "image": "./../public/images/WildLime.jpeg",
+        "title": "Wild Lime",
+        "price": "$15.00",
+        "description": "Give Vacation vibes with our new set Wild Lime. The perfect mix of yellow and green with a beautiful glossy finish."
+    }
+    ]
+}
