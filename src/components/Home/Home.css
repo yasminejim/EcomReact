@@ -27,7 +27,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       position: static;
-      background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("home.img/pexels-suzy-hazelwood-3609620.jpg");
+      background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/home.img/pexels-suzy-hazelwood-3609620.jpg");
      }
 
  .img-2{
@@ -38,7 +38,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: static;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("home.img/nailbackground.jpeg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/home.img/nailbackground.jpeg");
  }
 
  .img-3{
@@ -49,7 +49,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: static;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("home.img/NailBg2.jpeg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/home.img/NailBg2.jpeg");
  }
 
  
@@ -104,7 +104,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       position: static;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("home.img/pexels-suzy-hazelwood-3609620.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/home.img/pexels-suzy-hazelwood-3609620.jpg");
     }
 
     .img-2 {
@@ -115,7 +115,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       position: static;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("home.img/nailbackground.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/home.img/nailbackground.jpeg");
     }
 
     .img-3 {
@@ -126,7 +126,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       position: static;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("home.img/NailBg2.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/home.img/NailBg2.jpeg");
     }
 
  }
@@ -145,7 +145,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      position: static;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("home.img/pexels-suzy-hazelwood-3609620.jpg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/home.img/pexels-suzy-hazelwood-3609620.jpg");
    }
 
    .img-2 {
@@ -156,7 +156,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      position: static;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("home.img/nailbackground.jpeg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/home.img/nailbackground.jpeg");
    }
 
    .img-3 {
@@ -167,7 +167,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      position: static;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("home.img/NailBg2.jpeg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/home.img/NailBg2.jpeg");
    }
 
 }

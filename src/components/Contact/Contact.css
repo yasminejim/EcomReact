@@ -8,7 +8,8 @@
         align-items: center; 
         flex-direction: column;
         background-size: cover;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("contact.img/contactbg.jpeg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("/public/contact.img/contactbg.jpeg");
     }
     
       /*contact title/styling*/
@@ -114,15 +115,15 @@
             flex-direction: column;
             background-size: cover;
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url("contact.img/contactbg.jpeg");
+            url("/public/contact.img/contactbg.jpeg");
             background-position:top;
         }
       }
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-width: 390px) {
      .contact {
        position:relative;
        height: 100%;
-       width: 73.3%;
+       width: 74.4%;
        padding: 50px;
        display: flex;
        justify-content: center;
@@ -130,7 +131,7 @@
        flex-direction: column;
        background-size: cover;
        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-       url("contact.img/contactbg.jpeg");
+       url("/public/contact.img/contactbg.jpeg");
        background-position: top;
      }
       /*contact title/styling*/

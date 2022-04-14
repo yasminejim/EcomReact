@@ -26,40 +26,40 @@
     }
     /* Card images*/
     .nail-0{
-    background-image: url('product.img/AllNatural.jpeg');
+    background-image: url("/public/product.img/AllNatural.jpeg");
     }
     .nail-1{
-    background-image: url('product.img/Baecation.jpeg');
+    background-image: url('/public/product.img/Baecation.jpeg');
     }
     .nail-2{
-      background-image: url('product.img/Barbie.jpeg');
+      background-image: url('/public/product.img/Barbie.jpeg');
     }
     .nail-3{
-      background-image: url('product.img/Chanel.jpeg');
+      background-image: url('/public/product.img/Chanel.jpeg');
     }
     .nail-4{
-      background-image: url('product.img/Deja-vu.jpeg');
+      background-image: url('/public/product.img/Deja-vu.jpeg');
     }
     .nail-5{
-      background-image: url('product.img/Espresso.jpeg');
+      background-image: url('/public/product.img/Espresso.jpeg');
     }
     .nail-6{
-      background-image: url('product.img/Extravagant.jpeg');
+      background-image: url('/public/product.img/Extravagant.jpeg');
     }
     .nail-7{
-      background-image: url('product.img/Miami.jpeg');
+      background-image: url('/public/product.img/Miami.jpeg');
     }
     .nail-8{
-      background-image: url('product.img/November.jpeg');
+      background-image: url('/public/product.img/November.jpeg');
     } 
      .nail-9{
-      background-image: url('product.img/PinkMoscato.jpeg');
+      background-image: url('/public/product.img/PinkMoscato.jpeg');
     }
     .nail-10{
-      background-image: url('product.img/ShadesOfNude.jpeg');
+      background-image: url('/public/product.img/ShadesOfNude.jpeg');
     }
     .nail-11{
-      background-image: url('product.img/WildLime.jpeg');
+      background-image: url('/public/product.img/WildLime.jpeg');
     }
     
     .card h2 {
