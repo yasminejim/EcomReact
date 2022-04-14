@@ -9,7 +9,7 @@
         flex-direction: column;
         background-size: cover;
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("/public/contact.img/contactbg.jpeg");
+        url("/public/images/contactbg.jpeg");
     }
     
       /*contact title/styling*/
@@ -115,7 +115,7 @@
             flex-direction: column;
             background-size: cover;
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url("/public/contact.img/contactbg.jpeg");
+            url("/public/images/contactbg.jpeg");
             background-position:top;
         }
       }
@@ -131,7 +131,7 @@
        flex-direction: column;
        background-size: cover;
        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-       url("/public/contact.img/contactbg.jpeg");
+       url("/public/images/contactbg.jpeg");
        background-position: top;
      }
       /*contact title/styling*/

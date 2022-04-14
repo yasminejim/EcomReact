@@ -26,40 +26,40 @@
     }
     /* Card images*/
     .nail-0{
-    background-image: url("/public/product.img/AllNatural.jpeg");
+    background-image: url("/public/images/AllNatural.jpeg");
     }
     .nail-1{
-    background-image: url('/public/product.img/Baecation.jpeg');
+    background-image: url('/public/images/Baecation.jpeg');
     }
     .nail-2{
-      background-image: url('/public/product.img/Barbie.jpeg');
+      background-image: url('/public/images/Barbie.jpeg');
     }
     .nail-3{
-      background-image: url('/public/product.img/Chanel.jpeg');
+      background-image: url('/public/images/Chanel.jpeg');
     }
     .nail-4{
-      background-image: url('/public/product.img/Deja-vu.jpeg');
+      background-image: url('/public/images/Deja-vu.jpeg');
     }
     .nail-5{
-      background-image: url('/public/product.img/Espresso.jpeg');
+      background-image: url('/public/images/Espresso.jpeg');
     }
     .nail-6{
-      background-image: url('/public/product.img/Extravagant.jpeg');
+      background-image: url('/public/images/Extravagant.jpeg');
     }
     .nail-7{
-      background-image: url('/public/product.img/Miami.jpeg');
+      background-image: url('/public/images/Miami.jpeg');
     }
     .nail-8{
-      background-image: url('/public/product.img/November.jpeg');
+      background-image: url('/public/images/November.jpeg');
     } 
      .nail-9{
-      background-image: url('/public/product.img/PinkMoscato.jpeg');
+      background-image: url('/public/images/PinkMoscato.jpeg');
     }
     .nail-10{
-      background-image: url('/public/product.img/ShadesOfNude.jpeg');
+      background-image: url('/public/images/ShadesOfNude.jpeg');
     }
     .nail-11{
-      background-image: url('/public/product.img/WildLime.jpeg');
+      background-image: url('/public/images/WildLime.jpeg');
     }
     
     .card h2 {
@@ -148,7 +148,7 @@
         }
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 390px) {
         
                .container {
                  padding: 70px;
@@ -161,14 +161,14 @@
 
                .card {
                  width: 260px;
-                 height: 380px;
+                 height: 390px;
                  background: rgb(108, 74, 74);
                  margin: 15px;
                  border-radius: 10px;
                }
 
                .card-image {
-                 height: 200px;
+                 height: 250px;
                  margin-bottom: 1px;
                  background-size: cover;
                  border-radius: 10px 10px 0 0;
@@ -177,12 +177,12 @@
 
                .cartbuttonForm {
                  padding: 20px 75px;
-                 margin-top: 3px;
+                 margin-top: -3px;
                }
 
                    .card h2 {
                      margin-top: -5px;
-                     margin-bottom: -1px;
+                     margin-bottom: -18px;
                      padding: 1px;
                      text-align: center;
                      color: white;
@@ -190,14 +190,14 @@
 
                    .card h3 {
                      font-size: 12px;
-                     margin-bottom: -15px;
+                     margin-bottom: -25px;
                      padding: 5px;
                      text-align: center;
                      color: white;
                    }
 
                    .card p {
-                     margin-bottom: -15px;
+                     margin-bottom: -22px;
                      padding: 10px;
                      text-align: center;
                      color: white;
