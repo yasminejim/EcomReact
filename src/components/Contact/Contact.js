@@ -8,9 +8,9 @@ const Contact = () =>{
     return (
       <>
         <main className="contact">
-      <div className="content">
+      {/* <div className="content">
         <h2>Contact Us</h2>
-      </div>
+      </div> */}
           <div className="contactForm">
             <form>
               <h2>Send Us a Message</h2>

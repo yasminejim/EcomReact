@@ -146,6 +146,7 @@
 
       /*contact box info/styling*/
       .contactForm {
+       
         width: 250px;
         height: 290px;
         padding: 20px;
@@ -201,7 +202,7 @@
 
       /*send button*/
       .contactForm .inputBox input[type="submit"] {
-        width: 50px;
+        width: 70px;
         background: rgb(108, 74, 74);
         color: white;
         border: none;
