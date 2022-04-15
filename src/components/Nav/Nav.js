@@ -29,7 +29,7 @@ const Nav = () =>{
      <a className="menu-item" href="/Contact"></a>
        <span className="ti-home"></span>
     </div>
-    </div> */}
+    </div>  */}
         </nav>
       </header>
             </>

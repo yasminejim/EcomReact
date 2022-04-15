@@ -116,6 +116,111 @@
       }
     }
 
+
+    @media only screen and (max-width: 414px) {
+      .contact {
+        position: relative;
+        height: 100%;
+        width: 76%;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url("https://c0.wallpaperflare.com/preview/493/477/165/beauty-salon-barber-nail-salon-salon.jpg");
+        background-position: top;
+      }
+
+      /*contact title/styling*/
+      .contact .content {
+        max-width: 100px;
+        text-align: center;
+      }
+
+      .contact .content h2 {
+        font-size: 20px;
+        font-weight: 300;
+        color: rgb(237, 237, 237);
+      }
+
+      /*contact box info/styling*/
+      .contactForm {
+
+        width: 250px;
+        height: 290px;
+        padding: 20px;
+        background: white;
+        border-radius: 12px 12px;
+      }
+
+      .contactForm h2 {
+        font-size: 20px;
+        color: rgb(108, 74, 74);
+        font-weight: 500;
+      }
+
+      .contactForm .inputBox {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      /*contact box design*/
+      .contactForm .inputBox input,
+      .contactForm .inputBox textarea {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+        resize: none;
+      }
+
+      .contactForm .inputBox label {
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 12px;
+        margin: 10px 0;
+        transition: 0.5s;
+        color: black;
+      }
+
+      /*focus into box while typed/requires valid text ex-email*/
+      .contactForm .inputBox input:focus~label,
+      .contactForm .inputBox input:valid~label,
+      .contactForm .inputBox textarea:focus~label,
+      .contactForm .inputBox textarea:valid~label {
+        color: black;
+        font-size: 12px;
+        /*moves text above actual text*/
+        transform: translateY(-20px);
+      }
+
+      /*send button*/
+      .contactForm .inputBox input[type="submit"] {
+        width: 70px;
+        background: rgb(108, 74, 74);
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 15px 15px;
+      }
+
+      .inputBox:hover {
+        color: black;
+        transform: scale(1.05);
+      }
+
+    }
+
+
     @media only screen and (max-width: 390px) {
       .contact {
         position: relative;
@@ -146,7 +251,7 @@
 
       /*contact box info/styling*/
       .contactForm {
-       
+
         width: 250px;
         height: 290px;
         padding: 20px;
