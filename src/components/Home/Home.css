@@ -38,7 +38,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: static;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/images/nailbackground.jpeg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)),
+  url("https://c1.wallpaperflare.com/preview/525/746/556/manicure-pedicure-cosmetics-kosmetikstudio.jpg");
  }
 
  .img-3{
@@ -49,7 +50,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: static;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/images/NailBg2.jpeg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)),
+  url("https://c0.wallpaperflare.com/preview/366/332/998/blue-bottles-close-up-containers.jpg");
  }
 
  
@@ -115,7 +117,8 @@
       background-repeat: no-repeat;
       background-size: cover;
       position: static;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/images/nailbackground.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)),
+      url("https://c1.wallpaperflare.com/preview/525/746/556/manicure-pedicure-cosmetics-kosmetikstudio.jpg");
     }
 
     .img-3 {
@@ -126,7 +129,8 @@
       background-repeat: no-repeat;
       background-size: cover;
       position: static;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/images/NailBg2.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)),
+      url("https://c0.wallpaperflare.com/preview/366/332/998/blue-bottles-close-up-containers.jpg");
     }
 
  }
@@ -156,7 +160,8 @@
      background-repeat: no-repeat;
      background-size: cover;
      position: static;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/images/nailbackground.jpeg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)),
+     url("https://c1.wallpaperflare.com/preview/525/746/556/manicure-pedicure-cosmetics-kosmetikstudio.jpg");
    }
 
    .img-3 {
@@ -167,7 +172,8 @@
      background-repeat: no-repeat;
      background-size: cover;
      position: static;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)), url("/public/images/NailBg2.jpeg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)),
+     url("https://c0.wallpaperflare.com/preview/366/332/998/blue-bottles-close-up-containers.jpg");
    }
 
  .inputBox2 input[type="submit"] {
